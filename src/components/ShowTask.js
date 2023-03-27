@@ -3,7 +3,7 @@ const ShowTask = ({tasklist, setTasklist, handleEdit, handleDelete}) => {
         <section className='showTask'>
             <p className="head">
                 <span>
-                    <span className="title">adam's Todo</span>
+                    <span className="title">adam crow's Todo</span>
                     <span className="count">{tasklist.length}</span>
                 </span>
                 <span className="clearAll" onClick={() => setTasklist([])}>Clear All</span>
